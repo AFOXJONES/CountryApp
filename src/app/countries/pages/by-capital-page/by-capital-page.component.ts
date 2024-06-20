@@ -12,8 +12,5 @@ export class ByCapitalPageComponent {
     console.log({term})
   }
 
-  @Output()
-  onValue(){
 
-  }
 }
