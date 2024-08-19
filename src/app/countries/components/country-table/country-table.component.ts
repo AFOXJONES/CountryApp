@@ -4,7 +4,11 @@ import { Country } from '../../interfaces/country';
 @Component({
   selector: 'country-table',
   templateUrl: './country-table.component.html',
-  styleUrl: './country-table.component.css'
+  styles: [
+    `img{
+      width:25px
+    }`
+  ]
 })
 export class CountryTableComponent {
 
